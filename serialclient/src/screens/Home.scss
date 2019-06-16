@@ -1,0 +1,65 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  padding-bottom: 2rem;
+  background: #fcfcfc;
+  .creator-name {
+    font-weight: 400;
+  }
+  &__data {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 30px;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 3rem;
+
+    .diploma-name {
+      text-align: center;
+      color: #131313;
+      font-size: 36px;
+      margin-bottom: 5rem;
+    }
+
+    .data-tabs {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+      width: 100%;
+      padding: 0 60px;
+      margin-bottom: 2rem;
+      @media (max-width: 1250px) {
+        flex-direction: column;
+        padding: 0;
+      }
+      .tab {
+        height: 100%;
+        width: 50%;
+        &:first-child {
+          border-right: 1px solid #d1d1d1;
+        }
+        @media (max-width: 1250px) {
+          width: 100%;
+          &:first-child {
+            padding-bottom: 2rem;
+            margin-bottom: 2rem;
+            border-right: none;
+            border-bottom: 1px solid #d1d1d1;
+          }
+        }
+      }
+    }
+    .button {
+      font-size: 28px;
+      font-weight: 100;
+      padding: 10px 20px;
+      box-shadow: 0 3px 15px rgba(#000, 0.2);
+    }
+  }
+}

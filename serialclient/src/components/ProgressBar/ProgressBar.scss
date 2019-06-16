@@ -1,0 +1,19 @@
+.bar {
+  position: relative;
+  width: 100%;
+  height: 20px;
+  border-radius: 40px;
+  border: 1px solid #00c9e9;
+  overflow: hidden;
+  &--content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #00c9e9;
+    height: 100%;
+    border-radius: 40px;
+    box-shadow: 0 0 30px #00c9e9;
+    transition: width 0.5s, transform 0.5s;
+  }
+}

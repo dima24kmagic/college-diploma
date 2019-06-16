@@ -1,0 +1,31 @@
+.norms {
+  &__dialog {
+    position: relative;
+    .button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 15px;
+      right: 20px;
+      margin: 0;
+      padding: 8;
+      background: #fff;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  &__value {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #eaeaea;
+    .name {
+      margin-right: 8px;
+    }
+    .value {
+      font-weight: 600;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.data {
+  display: flex;
+  align-items: flex-end;
+  .ws-data {
+    margin-left: -18px;
+    line-height: 0.75;
+    font-size: 246px;
+    text-shadow: 8px 7px 20px rgba(0, 0, 0, 0.2);
+    @media (max-width: 1250px) {
+      font-size: 200px;
+    }
+    @media (max-width: 850px) {
+      font-size: 120px;
+    }
+    @media (max-width: 850px) {
+      font-size: 80px;
+    }
+  }
+  .scale {
+    font-size: 42px;
+  }
+}
